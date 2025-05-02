@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A complete news management and display application that simulates a real environment with distinct roles (Admin, Editor, Author), publishing control, authentication, administrative panel and public reading page.",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --watch ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/KNereSouza/newsportal-system/issues"
   },
-  "homepage": "https://github.com/KNereSouza/newsportal-system#readme"
+  "homepage": "https://github.com/KNereSouza/newsportal-system#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
