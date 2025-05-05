@@ -23,4 +23,4 @@ const authenticateToDatabase = async () => {
   }
 };
 
-export { authenticateToDatabase };
+export { sequelize, authenticateToDatabase };
